@@ -119,3 +119,15 @@ div {
   margin-left: 3.2px;
   width: 25px;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: grey;
+}
