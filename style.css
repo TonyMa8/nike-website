@@ -131,13 +131,28 @@ button {
   height: 75%;
   position: absolute;
 }
-.shoe-display {
+.shoe-picture {
   padding-left: 280px;
 }
+.shoe-display {
+  display: flex;
+  gap: 2vh;
+}
 img {
-  width: 30%;
+  width: 53vh;
+  height: 53vh;
 }
 p {
   margin-bottom: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.bestseller {
+  margin-bottom: 5px;
+  color: rgb(197, 141, 0);
+}
+.description {
+  color: rgb(162, 162, 162);
+}
+.Shoe {
   font-family: Arial, Helvetica, sans-serif;
 }
